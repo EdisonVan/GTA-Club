@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.css">
+    <script src="../bootstrap/js/bootstrap.js"></script>
+</head>
+<style type="text/css">
+    .fileinput-button {
+        position: relative;
+        display: inline-block;/*行内块元素*/
+        overflow:hidden;/*其实就是把左边和下边的溢出部分给隐藏了*/
+    }
+
+    .fileinput-button input {
+        position: absolute;
+        right: 0px;/*通过right的定位方式把输入框移到左边去的方式，可以在IE下回避出现鼠标指针变成输入态的情况。*/
+        top: 0px;
+        /*透明input元素:input完全不见了踪影，点击“上传”依然有效。*/
+        opacity:0;
+        -ms-filter:'alpha(opacity=0)';
+        /*可以通过为input设置一个很大的字号将其撑大的方式来解决覆盖问题，这里就设个200px。*/
+    }
+</style>
+<body>
+<span class="fileinput-button btn btn-success">
+<span>上传</span>
+<input type="file">
+</span>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>你凡哥哥的GTA！</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<style>
+    .carousel{
+        height:400px;
+        margin-top:-20px;
+        width:100%;
+    }
+    .item{
+        height:400px;
+    }
+    .carousel .item img {
+        width: 100%;
+    }
+    h3{
+        font-weight:bold;
+    }
+    p{
+        font-size:15px;
+    }
+    .row img{
+        width:280px;
+        height:330px;
+    }
+    .row.main-actor{
+        padding-top:20px;
+    }
+    .feature-heading{
+        font-size: 30px;
+        color:cornflowerblue;
+    }
+    .tab-pane p{
+        font-size:20px;
+    }
+    /*选择未访问、已访问、悬浮和活动链接，并设置它们的样式：*/
+    a:link{ color:white; text-decoration:none;}     /*text-decoration:none;取消下划线*/
+    a:visited{color:white;}
+    a:hover{color:white; text-decoration:none;}
+    a:active{color:white; text-decoration:none;}/*active:活动链接：即点击的那个瞬间*/
+    #feature-tab a:link{color: #929e99;}
+</style>
+<body>
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">GTA之家</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">论坛<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="disabled" ><a href="#">吐槽</a></li>
+                <li><a href="热门问题.html">热门问题</a></li>
+                <li><a href="游戏攻略.html">游戏攻略</a></li>
+                <li><a href="#">场景回顾</a></li>
+                <li class="divider"></li>
+                <li class="disabled" ><a href="#">资源</a></li>
+                <li><a href="#">视频简介</a></li>
+                <li><a href="#">重温经典</a></li>
+            </ul>
+        </li>
+        <li><a href="竞技比赛.html">竞技比赛</a></li>
+        <li><a href="#">帮助</a></li>
+    </ul>
+    <form class="navbar-form navbar-right" role="search">
+        <div class="form-group"><input type="text" class="form-control" placeholder="请输入密码"/></div>
+        <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-user"></span> 登录</button>
+        <button type="write off" class="btn btn-info"><span class="glyphicon glyphicon-log-out"></span>注销</button>
+        <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-registration-mark"></span><a id="change" href="GTA注册界面.html">注册</a></button>
+    </form>
+    <form class="navbar-form navbar-right" role="用户名">
+        <div class="from-group"><input type="text" class="form-control" placeholder="用户名"/></div>
+    </form>
+</nav>
+
+<div>
+<div id="myCarousel" class="carousel slide">
+    <!--Indicators-->
+    <ol class="carousel-indicators"><!--<ol> 标签定义了一个有序列表. 列表排序以数字来显示。使用<li> 标签来定义列表选项。-->
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!--Carousel items-->
+    <div class="carousel-inner">
+        <div class="active item">
+            <img src="../photo/GTA/1.jpg"/>
+            <div class="carousel-caption"><!--carsousel-caption用来放文字，并且会自动调整位置-->
+                <h3>GTA</h3>
+                <p>My favorite computer game! I play this game for 10 years!</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../photo/GTA/5.jpg"/>
+            <div class="carousel-caption">
+                <h3>GTA</h3>
+                <p>洛圣都，一个庞大且阳光普照的繁华都市，充满了自我救赎的大师们，贪官污吏们和落魄的名人们，
+                    一群被羡慕着的西方世界的居民却也正处于挣扎着生存的时代，衰落的经济和廉价的道义让这里混乱不堪。</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../photo/GTA/3.jpg"/>
+            <div class="carousel-caption">
+                <h3>GTA</h3>
+                <p>主角大多是希望在组织犯罪中的地位能够晋升。城市中地下犯罪世界的重要人物将会给玩者许多不同的任务，完成这些任务将能够推动故事的进行。任务内容大多是暗杀
+                    或其他的暴力犯罪。偶尔也包括驾驶计程车、救火、街头竞速、驾驶巴士，或是学习驾驶直升机和飞机等任务。</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../photo/GTA/economy.jpg">
+            <div class="carousel-caption">
+                <h3>Enjoy&nbsp&nbspyourself</h3>
+                <p>现实生活中无法实现的，你现在可以在GTA中完成。开着法拉利，抱着性感美眉，拿着枪械制裁你所看不惯的人和事！没事开开飞机旅游全美。</p>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a href="#myCarousel" class="carousel-control left" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a href="#myCarousel" class="carousel-control right" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="row main-actor">
+    <div class="col-md-3 col-md-offset-2">
+        <img src="../photo/GTA/Michael De Santa.png" alt="人物简介"/>
+        <h4 style="margin-left:50px;">Michael De Santa</h4>
+        <p>&nbsp&nbsp&nbsp&nbsp麦克曾经是一个抢银行的强盗，后来金盆洗手跟FIB做了一笔交易成为了FIB的污点证人，
+            由于家庭之间的矛盾麦克只能自己一个人在家中喝着闷酒，没有人去理解他心中的痛。麦克自述自己其实想当一个
+            好父亲，热爱他的家庭，但是事与愿违麦克的儿女们身处叛逆期，
+            不理解父亲，导致他们之间经常发生争吵。麦克在家中的地位渐渐的被孤立了起来，而且还有了外遇对象。
+            <!-- <span><a href="#">了解更多</a></span>-->
+        </p>
+    </div>
+    <div class="col-md-3">
+        <img src="../photo/GTA/Trevor Philips.jpg" alt="人物简介"/>
+        <h4 style="margin-left:70px;">Trevor Philips</h4>
+        <p>&nbsp&nbsp&nbsp&nbsp崔佛生于加拿大，在美国和加拿大的边境成长，肚子上有个旧伤。崔佛是一个十足的疯子，
+            喜欢在月圆之夜学着狼嚎叫。脾气火爆，稍有不满意就会对人拳打脚踢。年轻时，发现自己在驾驶飞机方面很有天赋
+            于是入伍加拿大空军成为了一名优秀的战斗机飞行员，但由于脾气不稳定的原因，在第一次踏上战场前就被驱逐出伍。
+            他的卫生习惯很差，旁人随时都会闻到他身上的臭味，家里也时常凌乱不堪。
+            <!--<span><a href="#">了解更多</a></span>-->
+        </p>
+    </div>
+    <div class="col-md-3">
+        <img src="../photo/GTA/Clinton.png" alt="人物简介"/>
+        <h4 style="margin-left:80px;">Franklin Clinton</h4>
+        <p>&nbsp&nbsp&nbsp&nbsp富兰克林生于洛圣都南部，没有接受过教育，也没有家庭。后来想加入格罗夫帮派，但格罗夫
+            帮并不想让富兰克林加入，于是富兰克林只能帮他们去收拾烂摊子。后来他因为偷麦可儿子的车认识了麦可。 由于
+            年轻力壮，他的体格健壮，但同时由于太年轻缺乏经历，在使用高级枪械射击和驾驶飞行器方面几乎没有任何经验。
+            <!--<span>&lt;!&ndash;a href="#">了解更多</a></span>&ndash;&gt;-->
+        </p>
+    </div>
+    <!--col-md-offset-2代表将col-md-4向右移动了2个栅格栏-->
+</div>
+
+<!--标签页Tabs和导航栏nav-tabs-->
+<div class="col-md-1"></div>
+<div class="col-md-11">
+    <hr class="feature-divider">
+    <ul class="nav nav-tabs" role="tablist" id="feature-tab">
+        <li class="disabled"><a href="#" data-toggle="tab">游戏特色</a></li>
+        <li class="active"><a href="#tab-economy" data-toggle="tab">经济与贸易</a></li>
+        <li><a href="#tab-car" data-toggle="tab">极速劲车</a></li>
+        <li><a href="#tab-value" data-toggle="tab">游戏评价</a></li>
+        <li><a href="#tab-scenery" data-toggle="tab">场景介绍</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab tab-pane active" id="tab-economy">
+            <div class="col-md-8">
+                <h2 class="feature-heading">经济与贸易</h2>
+                <p>日常股票交易造就出深谙玩弄市场之道的百万富豪。鲍沙克证交网站能将所有身家赌在您认为稳赚不赔的股票上。或者，可以像许多避险基金经理人，
+                    拥抱历久弥新的内线交易和企业情资战。最后将您的战利品都投资在剧烈变动的洛圣都商业房地产市场</p>
+            </div>
+            <div class="col-md-4">
+                <img src="../photo/GTA/economy.jpg" alt="economy" style="width:340px;height:230px;margin-top:30px;"/>
+            </div>
+        </div>
+        <div class="tab tab-pane" id="tab-car">
+            <div class="col-md-8">
+                <h2 class="feature-heading">极速劲车</h2>
+                <p>开着时髦跑车上高速公路，或是开运动休旅车到布雷恩郡玩越野驾驶，到网路上看看琳琅满目、种类繁多的
+                    美丽车款。选辆爱尼仕或英奔堤这样的实用小轿车，或将顶级绝品先知二气派地开上罗克福德车道，再开车
+                    逛逛那些无聊透顶的大公司</p>
+            </div>
+            <div class="col-md-4">
+                <img src="../photo/GTA/car.jpg" alt="economy" style="width:380px;height:220px;margin-top:30px;"/>
+            </div>
+        </div>
+        <div class="tab tab-pane" id="tab-value">
+            <div class="col-md-8">
+                <h2 class="feature-heading">游戏评价</h2>
+                <p>《GTA5》不仅仅是一部会让你无法自拔的游戏，而且还用聪明犀利的手法讽刺了当代美国社会。
+                    游戏世界中再没有其他哪个世界能够达到《GTA5》这样的大小和规模，而且游戏背后的幽默和混乱都展
+                    示出了制作组犀利的智慧。它讲述了一个扣人心弦充满挑衅而且出人意料的故事，而最关键的是让所有
+                    这一切都发生在玩家自我的掌控之下，在洛圣都中，你可以完全按照自己的想法来展开你的冒险
+                    之旅。</p>
+            </div>
+            <div class="col-md-4">
+                <img src="../photo/GTA/4.jpg" alt="economy" style="width:350px;margin-top:30px;"/>
+            </div>
+        </div>
+        <div class="tab tab-pane" id="tab-scenery">
+            <div class="col-md-8">
+                <h2 class="feature-heading">场景介绍</h2>
+                <p>洛圣都拥有世界上最繁忙的机场洛圣都国际机场（Los Santos International Airport）和世界上最繁
+                    忙的港口洛圣都港（Port of Los Santos）。洛圣都的交通系统和铁路系统同样拥挤与繁忙，州际公路
+                    和高速公路贯穿着整座城市。洛圣都有着先进的教育和医疗资源，圣安地列斯大学（University of
+                    San Andreas）是洛圣都唯一的高等院校。治安方面，洛圣都警局（Los Santos Police Department）
+                    作为执法机构保障着洛圣都居民的安全，国家安全执法办公室（National Office of Security Enforc
+                    ement）也在洛圣都设有总部。洛圣都是一座重度污染的城市，2013年，洛圣都被评选为“世界上污染最严
+                    重的城市”。</p>
+            </div>
+            <div class="col-md-4">
+                <img src="../photo/GTA/2.jpg" alt="economy" style="width:380px;height:220px;margin-top:40px;"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--尾部效果-->
+        <div class="P1">
+        <img src="../photo/GTA/footer/ft.png" alt="">
+        </div>
+<div class="footer">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="col-md-1" id="logo">
+                        <img src="../photo/GTA/footer/GTAlogo.png" alt="">
+                    </div>
+                    <div class="col-md-10">
+                    <div id="f1" class="col-md-3 col-md-offset-1">
+                        <h4>FAQ</h4>
+                        <h5>Where is Parkbliss available?</h5>
+                        <p>For checking where Parkbliss is available,please check our <span class="text-info">Cities</span> Page</p>
+                        <br>
+                        <h5>Can I enroll my Space?</h5>
+                        <p>In order to enroll your Parking Space you must own it or have the legal right to mangage it,operate it or lease it.For further information,please check our <span class="text-info">Terms of Service</span></p>
+                    </div>
+                    <div id="f2" class="col-md-3 col-md-offset-1">
+                        <h4>AccountFAQ</h4>
+                        <h5>Publish My Spaces</h5>
+                        <h5>Log In</h5>
+                    </div>
+                    <div id="f3" class="col-md-3">
+                        <h4>About</h4>
+                        <h4>Availability</h4>
+                        <h4>Contact Us</h4>
+                        <h4>Terms of Service</h4>
+                        <h4>Privacy Policy</h4>
+                    </div>
+                </div>
+                    </div>
+                <div class="row">
+                    <div id="P2" class="col-md-5 col-md-offset-3">
+                        <img src="../photo/GTA/footer/Appstore.png" alt="">
+                        <img src="../photo/GTA/footer/Googleplay.png" alt="">
+                    </div>
+                </div>
+                </div>
+            <hr>
+            <div class="row">
+                <div id="P3" class="col-md-4 col-md-offset-4">
+                    <img src="../photo/GTA/footer/facebook.png" alt="">
+                    <img src="../photo/GTA/footer/Twitter.png" alt="">
+                    <img src="../photo/GTA/footer/instogram.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="foot-muted">
+    <h5>Copyright ©2017 By CLOT's fans Angelo-Sifan All right reserve</h5>
+    </div>
+
+
+<script src="../bootstrap/js/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

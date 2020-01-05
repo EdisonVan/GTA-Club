@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>你凡哥哥的GTA！</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<style>
+body{
+padding-top:0px;
+width:100%;
+overflow-x:hidden;
+    background:url(../photo/GTA/2.jpg) repeat;
+    background-size:100%;
+    height:auto;
+    max-width:100%;
+    display:block;
+}
+a:link{ color:white; text-decoration:none;}     /*text-decoration:none;取消下划线*/
+a:visited{color:white;}
+a:hover{color:white; text-decoration:none;}
+a:active{color:white; text-decoration:none;}/*active:活动链接：即点击的那个瞬间*/
+</style>
+<body>
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand">GTA之家</a>
+    </div>
+    <form class="navbar-form navbar-right" role="return" style="margin-right:3px;">
+        <button type="return" class="btn btn-primary glyphicon glyphicon-home"><a href="凡哥哥的专属GTA.html">返回主页</a>
+        </button>
+    </form>
+    <!--action 属性规定当提交表单时，向何处发送表单数据。-->
+</nav>
+
+<div class="row">
+<div class="col-lg-2">
+    广告栏目
+</div>
+
+
+<div class="col-lg-8" style="height:780px;">
+        <div class="panel panel-info" style="margin-top:-20px;">
+            <div class="panel-heading" style="background:#28557a">
+                <h4 class="panel-title" style="color:yellow;font-size:20px;">
+                    攻略精选
+                </h4>
+                <a href="#" class="btn pull-right" style="margin-top:-25px;">
+                    <span class="glyphicon glyphicon-cloud" data-toggle="tooltip" data-placement="left" title="分享给朋友" id="cloud"></span>
+                </a>
+            </div>
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form class="form-inline">  <!--form-inline用来保证下面的label和select那个处在一行-->
+                            <div class="form-group col-md-5 col-md-offset-2">
+                                <label>人物角色</label>
+                                <select class="form-control">
+                                    <option>麦可·迪圣塔</option>
+                                    <option>富兰克林·克林顿</option>
+                                    <option>崔佛·菲利普</option>
+                                    <option>阿曼达·迪圣塔</option>
+                                    <option>詹姆斯·迪圣塔</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label>任务</label>
+                                <select class="form-control">
+                                    <option>富兰克林与拉玛</option>
+                                    <option>其父其子</option>
+                                    <option>交换条件</option>
+                                    <option>掌上明珠</option>
+                                    <option>虫虫克星（抢劫准备）</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary col-md-1 col-md-offset-5" style="margin-top:15px;"><span class="glyphicon glyphicon-chevron-right"></span>添加</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                        <div class="panel-heading">预下载明细</div>
+                        <table class="table">
+                            <thead><!--定义表格的表头-->
+                            <tr> <!--行-->
+                                <th>任务名称</th><!--行内元素-->
+                                <th>玩家角色</th>
+                                <th>难易程度</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>其父其子</th>
+                                <th>崔佛·菲利普</th>
+                                <th>★★★</th>
+                                <th>删除</th>
+                            </tr>
+                            <tr>
+                                <th>交换条件</th>
+                                <th>阿曼达·迪圣塔</th>
+                                <th>★★★★</th>
+                                <th>删除</th>
+                            </tr>
+                            <tr>
+                                <th>掌上明珠</th>
+                                <th>麦可·迪圣塔</th>
+                                <th>★★★★★</th>
+                                <th>删除</th>
+                            </tr>
+                            <tr>
+                                <th>交换条件</th>
+                                <th>詹姆斯·迪圣塔</th>
+                                <th>★★</th>
+                                <th>删除</th>
+                            </tr>
+                            <tr>
+                                <th>交换条件</th>
+                                <th>麦可·迪圣塔</th>
+                                <th>★★★★</th>
+                                <th>删除</th>
+                            </tr>
+                            <tr>
+                                <th>富兰克林与拉玛</th>
+                                <th>富兰克林·克林顿</th>
+                                <th>★</th>
+                                <th>删除</th>
+                            </tr>
+                            </tbody>
+                        </table>
+                    <button type="download" class="btn btn-danger col-md-2 col-md-offset-10" style="margin-top:20px;"><span class="glyphicon glyphicon-download"></span>&nbsp&nbsp批量下载</button>
+                </div>
+            </div>
+        </div>
+</div>
+
+    <div class="col-lg-2">
+        广告栏目
+    </div>
+</div>
+<!--尾部效果-->
+<div class="footer">
+    <div class="container">
+        <div>
+            <div class="row">
+                <div class="col-md-1" id="logo">
+                    <img src="../photo/GTA/footer/GTAlogo.png" alt="">
+                </div>
+                <div class="col-md-10">
+                    <div id="f1" class="col-md-3 col-md-offset-1">
+                        <h4>FAQ</h4>
+                        <h5>Where is Parkbliss available?</h5>
+                        <p>For checking where Parkbliss is available,please check our <span class="text-info">Cities</span> Page</p>
+                        <br>
+                        <h5>Can I enroll my Space?</h5>
+                        <p>In order to enroll your Parking Space you must own it or have the legal right to mangage it,operate it or lease it.For further information,please check our <span class="text-info">Terms of Service</span></p>
+                    </div>
+                    <div id="f2" class="col-md-3 col-md-offset-1">
+                        <h4>AccountFAQ</h4>
+                        <h5>Publish My Spaces</h5>
+                        <h5>Log In</h5>
+                    </div>
+                    <div id="f3" class="col-md-3">
+                        <h4>About</h4>
+                        <h4>Availability</h4>
+                        <h4>Contact Us</h4>
+                        <h4>Terms of Service</h4>
+                        <h4>Privacy Policy</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="P2" class="col-md-5 col-md-offset-3">
+                    <img src="../photo/GTA/footer/Appstore.png" alt="">
+                    <img src="../photo/GTA/footer/Googleplay.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div id="P3" class="col-md-4 col-md-offset-4">
+                <img src="../photo/GTA/footer/facebook.png" alt="">
+                <img src="../photo/GTA/footer/Twitter.png" alt="">
+                <img src="../photo/GTA/footer/instogram.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="foot-muted">
+    <h5>Copyright ©2017 By CLOT's fans Angelo-Sifan All right reserve</h5>
+</div>
+<script src="../bootstrap/js/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
