@@ -42,12 +42,12 @@
 ### 重构界面
 |界面|负责人|
 |--|--|
-|首页||
-|报名流程||
-|竞技比赛||
-|热门问题||
-|注册界面||
-|游戏攻略||
+|首页|[EdisonVan](https://github.com/EdisonVan)|
+|报名流程|[EdisonVan](https://github.com/EdisonVan)|
+|竞技比赛|[leniNikky](https://github.com/leniNikky)|
+|热门问题|[HuiWin](https://github.com/qiumeihui)|
+|注册界面|[HuiWin](https://github.com/qiumeihui)|
+|游戏攻略|[leniNikky](https://github.com/leniNikky)|
 
 ## 5.项目完成之后的感想
 开发中...
