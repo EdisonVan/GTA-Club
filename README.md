@@ -1,7 +1,7 @@
 # 关于项目
 
 ## 为什么写这个项目？
-该项目为本人在2017年暑期通过html、Bootstarp、css3、js写的GTA游戏主题网页！现和另外两名前端小伙伴使用React进行重构！同时对毕业以来所学的知识进行巩固！如果该项目有帮助到你学习或理解react，欢迎Star!
+该项目为本人在2017年暑期通过Bootstarp写的GTA游戏主题网页！现和另外两名前端小伙伴使用React进行重构！同时对毕业以来所学的知识进行巩固！如果该项目有帮助到你学习或理解react，欢迎Star!
 
 ## 1. 项目描述
 |项目名|GTA-Club|
@@ -9,7 +9,7 @@
 |项目技术栈和主要框架|React、mobx、less、TypeScript、mongoDB、Node.js、Nginx|
 |项目功能简述|GTA游戏社区|
 |代码仓库地址|https://github.com/EdisonVan/GTA-Club|
-|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)、[leniNikky](https://github.com/leniNikky)|
+|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)|
 |支持的平台|PC、移动端浏览器|
 <!-- 项目构建
 （非必须）：这次为何跨端开发没有用/用XXX？ -->
@@ -46,10 +46,10 @@
 |--|--|
 |首页|[EdisonVan](https://github.com/EdisonVan)|
 |报名流程|[EdisonVan](https://github.com/EdisonVan)|
-|竞技比赛|[leniNikky](https://github.com/leniNikky)|
+|竞技比赛|[EdisonVan](https://github.com/EdisonVan)|
 |热门问题|[HuiWin](https://github.com/qiumeihui)|
 |注册界面|[HuiWin](https://github.com/qiumeihui)|
-|游戏攻略|[leniNikky](https://github.com/leniNikky)|
+|游戏攻略|[HuiWin](https://github.com/qiumeihui)|
 
 ## 5.项目完成之后的感想
 开发中...
