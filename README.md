@@ -1,7 +1,7 @@
 # 关于项目
 
 ## 为什么写这个项目？
-该项目为本人在2017年暑期通过html、Bootstarp、css3、js写的GTA游戏主题网页！现和另外两名前端小伙伴使用React进行重构！同时对毕业以来所学的知识进行巩固！如果该项目有帮助到你学习或理解react，欢迎Star!
+该项目为本人在2017年暑期通过Bootstarp写的GTA游戏主题网页！现和另外两名前端小伙伴使用React进行重构！同时对毕业以来所学的知识进行巩固！如果该项目有帮助到你学习或理解react，欢迎Star!
 
 ## 1. 项目描述
 |项目名|GTA-Club|
@@ -9,7 +9,7 @@
 |项目技术栈和主要框架|React、mobx、less、TypeScript、mongoDB、Node.js、Nginx|
 |项目功能简述|GTA游戏社区|
 |代码仓库地址|https://github.com/EdisonVan/GTA-Club|
-|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)、[leniNikky](https://github.com/leniNikky)|
+|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)|
 |支持的平台|PC、移动端浏览器|
 <!-- 项目构建
 （非必须）：这次为何跨端开发没有用/用XXX？ -->
@@ -34,20 +34,22 @@
 |--|--|--|
 |准备|新页面设计、一期功能点分析、技术栈学习|2020年01月05日-2020年02月01日|
 |前期|React+mobx+less+TypeScript实现新老页面、[RAP写mock假数据](http://rap2.taobao.org/)|2020年02月01日-2020年02月15日|
-|中期|mongoDB+Node.js实现存储数据和后端功能|2020年02月15日-2020年03月20日|
+|中期|mongoDB存储数据、Node.js实现后端功能、Koa2+next.js渲染服务器端|2020年02月15日-2020年03月20日|
 |自测|检查、提议二期功能|2020年03月20日-2020年03月26日|
 |后期|Nginx发布一期网站|2020年03月26日-2020年03月31日|
+
+
   <!-- 告诉其他开发者一些关键信息，如页面打包构建，需要注意哪些问题等（非必须，但可以帮助其他开发者降低开发的风险成本） -->
 
 ### 重构界面
 |界面|负责人|
 |--|--|
-|首页||
-|报名流程||
-|竞技比赛||
-|热门问题||
-|注册界面||
-|游戏攻略||
+|首页|[EdisonVan](https://github.com/EdisonVan)|
+|报名流程|[EdisonVan](https://github.com/EdisonVan)|
+|竞技比赛|[EdisonVan](https://github.com/EdisonVan)|
+|热门问题|[HuiWin](https://github.com/qiumeihui)|
+|注册界面|[HuiWin](https://github.com/qiumeihui)|
+|游戏攻略|[HuiWin](https://github.com/qiumeihui)|
 
 ## 5.项目完成之后的感想
 开发中...
