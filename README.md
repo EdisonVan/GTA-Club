@@ -9,7 +9,7 @@
 |项目技术栈和主要框架|React、mobx、less、TypeScript、mongoDB、Node.js、Nginx|
 |项目功能简述|GTA游戏社区|
 |代码仓库地址|https://github.com/EdisonVan/GTA-Club|
-|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)|
+|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)、[yang1212](https://github.com/yang1212)|
 |支持的平台|PC、移动端浏览器|
 <!-- 项目构建
 （非必须）：这次为何跨端开发没有用/用XXX？ -->
@@ -32,11 +32,11 @@
 ## 4. 项目备注
 |阶段|任务|时间|
 |--|--|--|
-|准备|新页面设计、一期功能点分析、技术栈学习|2020年01月05日-2020年02月01日|
-|前期|React+mobx+less+TypeScript实现新老页面、[RAP写mock假数据](http://rap2.taobao.org/)|2020年02月01日-2020年02月15日|
-|中期|mongoDB存储数据、Node.js实现后端功能、Koa2+next.js渲染服务器端|2020年02月15日-2020年03月20日|
-|自测|检查、提议二期功能|2020年03月20日-2020年03月26日|
-|后期|Nginx发布一期网站|2020年03月26日-2020年03月31日|
+|准备|新页面设计、一期功能点分析、技术栈学习|2020年01月05日-2020年02月14日|
+|前期|React+mobx+less+TypeScript实现新老页面、[RAP写mock假数据](http://rap2.taobao.org/)|2020年02月15日-2020年02月29日|
+|中期|mongoDB存储数据、Node.js实现后端功能、Koa2+next.js渲染服务器端|2020年02月01日-2020年03月21日|
+|自测|检查、提议二期功能|2020年03月22日-2020年03月28日|
+|后期|Nginx发布一期网站|2020年03月29日-2020年03月31日|
 
 
   <!-- 告诉其他开发者一些关键信息，如页面打包构建，需要注意哪些问题等（非必须，但可以帮助其他开发者降低开发的风险成本） -->
@@ -46,10 +46,10 @@
 |--|--|
 |首页|[EdisonVan](https://github.com/EdisonVan)|
 |报名流程|[EdisonVan](https://github.com/EdisonVan)|
-|竞技比赛|[EdisonVan](https://github.com/EdisonVan)|
+|竞技比赛|[yang1212](https://github.com/yang1212)|
 |热门问题|[HuiWin](https://github.com/qiumeihui)|
 |注册界面|[HuiWin](https://github.com/qiumeihui)|
-|游戏攻略|[HuiWin](https://github.com/qiumeihui)|
+|游戏攻略|[yang1212](https://github.com/yang1212)|
 
 ## 5.项目完成之后的感想
 开发中...
