@@ -1,0 +1,31 @@
+// 定义后端返回的数据结构
+{
+  "flag": 0,
+  "data": [
+    {
+      "id": 1,
+      "key": 1,
+      "name": "小明",
+      "department": "技术部",
+      "hiredate": "2020-02-16",
+      "level": "1级"
+    },
+    {
+      "id": 2,
+      "key": 2,
+      "name": "小莉",
+      "department": "策划部",
+      "hiredate": "2020-02-16",
+      "level": "2级"
+    },
+    {
+      "id": 3,
+      "key": 3,
+      "name": "Mike",
+      "department": "游戏设计部",
+      "hiredate": "2020-02-16",
+      "level": "1级"
+    }
+  ],
+  "msg": "Error"
+}

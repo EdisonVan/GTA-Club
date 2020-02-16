@@ -4,7 +4,7 @@ import { Layout, ConfigProvider } from "antd";
 import zhCN from "antd/es/locale/zh_CN";
 // import logo from "./logo.svg";
 import Index from "./index";
-import "./App.css";
+import "./App.less";
 
 const { Header, Content, Footer } = Layout;
 
