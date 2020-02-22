@@ -9,7 +9,7 @@
 |项目技术栈和主要框架|React、mobx、less、TypeScript、mongoDB、Node.js、Nginx|
 |项目功能简述|GTA游戏社区|
 |代码仓库地址|https://github.com/EdisonVan/GTA-Club|
-|项目的第一负责人|[HuiWin](https://github.com/qiumeihui)、[EdisonVan](https://github.com/EdisonVan)、[yang1212](https://github.com/yang1212)|
+|项目的第一负责人|[EdisonVan](https://github.com/EdisonVan)|
 |支持的平台|PC、移动端浏览器|
 <!-- 项目构建
 （非必须）：这次为何跨端开发没有用/用XXX？ -->
@@ -41,14 +41,14 @@
   <!-- 告诉其他开发者一些关键信息，如页面打包构建，需要注意哪些问题等（非必须，但可以帮助其他开发者降低开发的风险成本） -->
 
 ### 重构界面
-|界面|负责人|
+|界面|开发完成时间(预期)|
 |--|--|
-|首页|[EdisonVan](https://github.com/EdisonVan)|
-|报名流程|[EdisonVan](https://github.com/EdisonVan)|
-|竞技比赛|[yang1212](https://github.com/yang1212)|
-|热门问题|[HuiWin](https://github.com/qiumeihui)|
-|注册界面|[HuiWin](https://github.com/qiumeihui)|
-|游戏攻略|[yang1212](https://github.com/yang1212)|
+|首页||
+|报名流程||
+|竞技比赛||
+|热门问题||
+|注册界面||
+|游戏攻略||
 
 ## 5.项目完成之后的感想
 开发中...
